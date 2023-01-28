@@ -22,8 +22,10 @@ Legacy releases
 select OS (e.g. Windows 10)
 
 Anaconda: https://www.anaconda.com/
+# enable conda in powershell
+conda init powershell
 
-Download and install
+Download and install Pytorch with Anaconda
 
 # Create conda environment and activate it 
 conda create -n pytorch python=3.7
